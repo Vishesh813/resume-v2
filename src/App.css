@@ -1,0 +1,105 @@
+
+.header-color{
+background: #12c2e9;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #f64f59, #c471ed, #12c2e9);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #f64f59, #c471ed, #12c2e9); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+font-size: 20px;
+font-family: 'Roboto', sans-serif;
+font-family: 'Ubuntu', sans-serif;
+}
+
+
+.landing-grid{
+  background: #12c2e9;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #f64f59, #c471ed, #12c2e9);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #f64f59, #c471ed, #12c2e9); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  text-align: center; 
+  top: 0%;
+  left: 0;
+  width: 100%; 
+}
+
+
+.avatar-img{
+  height: 300px;
+  padding-top: 40px ;
+}
+
+
+.landing-grid .text-banner{
+ width: 75%;
+ background-color: black;
+ opacity: .8;
+ border-radius: 10px;
+ margin: auto;
+ text-align: center;
+}
+
+.text-banner h1{
+  font-weight:bold;
+  color: blanchedalmond;
+  font-size: 66px;
+}
+ .text-banner p{
+   color: white;
+   font-size: 20px;
+   padding: 1em;
+ }
+
+.text-banner hr{
+  border-top:5px dotted white;
+  width: 50%;
+  margin: auto;
+}
+
+.social-links{
+  width: 50%;
+  display: flex;
+  margin: auto;
+  justify-content: space-between;
+}
+
+.social-links i{
+  color: aliceblue;
+  font-size:5em ;
+  padding: 8px;
+  left: 0;
+}
+
+
+.card{
+  display:flex;
+}
+
+/* Contact section css */
+.contact{
+  border: 2px red;
+  /* background: gray; */
+  height:100%;
+  width:100%;
+}
+
+/*  Abou section Css*/
+
+.about-me-rightcol{
+  background-color:#27221F;
+  color:white;
+  padding: 1em;
+}
+.about-me h1,h2,h3,p{
+  font-family:'Ubuntu';
+}
+
+
+
+
+
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}

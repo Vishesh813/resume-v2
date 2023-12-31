@@ -1,0 +1,33 @@
+{
+  "homepage": "https://vishesh813.github.io/portfollio_vishesh",
+  "name": "vishesh_portfolio_v1",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "react": "*",
+    "react-dom": "*",
+    "react-mdl": "*",
+    "react-router-dom": "*",
+    "react-scripts": "*"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ],
+  "devDependencies": {
+    "gh-pages": "^6.1.1"
+  }
+}
